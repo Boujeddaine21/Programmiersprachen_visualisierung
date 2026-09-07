@@ -1,0 +1,21 @@
+@startuml
+
+left to right direction
+
+actor Benutzer
+
+rectangle "Visualisierung der Historie von Programmiersprachen" {
+
+usecase "Programmiersprache suchen" as UC1
+usecase "Paradigram und Zeitraum filtern" as UC2
+usecase "Graph visualisieren" as UC3
+usecase "SVG exportieren" as UC4
+usecase "Beliebtheit anzeigen" as UC5
+}
+
+Benutzer --> UC1
+Benutzer --> UC2
+Benutzer --> UC3
+Benutzer --> UC4
+Benutzer --> UC5
+@enduml

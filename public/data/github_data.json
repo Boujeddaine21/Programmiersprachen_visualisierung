@@ -1,0 +1,190 @@
+[
+  {
+    "language": "JavaScript",
+    "count": 44219040
+  },
+  {
+    "language": "Python",
+    "count": 32847405
+  },
+  {
+    "language": "Java",
+    "count": 21497397
+  },
+  {
+    "language": "TypeScript",
+    "count": 18016639
+  },
+  {
+    "language": "C#",
+    "count": 7596455
+  },
+  {
+    "language": "C++",
+    "count": 7041298
+  },
+  {
+    "language": "PHP",
+    "count": 6344186
+  },
+  {
+    "language": "C",
+    "count": 4276126
+  },
+  {
+    "language": "Ruby",
+    "count": 2966650
+  },
+  {
+    "language": "Go",
+    "count": 2481710
+  },
+  {
+    "language": "Kotlin",
+    "count": 2286907
+  },
+  {
+    "language": "Dart",
+    "count": 2081364
+  },
+  {
+    "language": "Rust",
+    "count": 1316850
+  },
+  {
+    "language": "R",
+    "count": 1121108
+  },
+  {
+    "language": "Lua",
+    "count": 726101
+  },
+  {
+    "language": "Objective-C",
+    "count": 542810
+  },
+  {
+    "language": "MATLAB",
+    "count": 494604
+  },
+  {
+    "language": "PowerShell",
+    "count": 357945
+  },
+  {
+    "language": "Scala",
+    "count": 259746
+  },
+  {
+    "language": "Assembly language",
+    "count": 211594
+  },
+  {
+    "language": "Perl",
+    "count": 188270
+  },
+  {
+    "language": "Haskell",
+    "count": 163556
+  },
+  {
+    "language": "Elixir",
+    "count": 131370
+  },
+  {
+    "language": "Groovy",
+    "count": 110394
+  },
+  {
+    "language": "Clojure",
+    "count": 100732
+  },
+  {
+    "language": "Julia",
+    "count": 93433
+  },
+  {
+    "language": "Delphi",
+    "count": 77879
+  },
+  {
+    "language": "Pascal",
+    "count": 77879
+  },
+  {
+    "language": "VHDL",
+    "count": 65091
+  },
+  {
+    "language": "Fortran",
+    "count": 45633
+  },
+  {
+    "language": "OCaml",
+    "count": 43106
+  },
+  {
+    "language": "Prolog",
+    "count": 37697
+  },
+  {
+    "language": "Zig",
+    "count": 37241
+  },
+  {
+    "language": "F#",
+    "count": 34745
+  },
+  {
+    "language": "Erlang",
+    "count": 34123
+  },
+  {
+    "language": "Lisp",
+    "count": 32096
+  },
+  {
+    "language": "Tcl",
+    "count": 29991
+  },
+  {
+    "language": "Racket",
+    "count": 23547
+  },
+  {
+    "language": "Scheme",
+    "count": 21676
+  },
+  {
+    "language": "D",
+    "count": 16232
+  },
+  {
+    "language": "Smalltalk",
+    "count": 14704
+  },
+  {
+    "language": "Nim",
+    "count": 13715
+  },
+  {
+    "language": "Crystal",
+    "count": 10313
+  },
+  {
+    "language": "COBOL",
+    "count": 9137
+  },
+  {
+    "language": "Ada",
+    "count": 8405
+  },
+  {
+    "language": "SQL",
+    "count": 4404
+  },
+  {
+    "language": "BASIC",
+    "count": 2353
+  }
+]

@@ -1,0 +1,31 @@
+@startuml
+package "Browser (clientseitig)" {
+
+  [<<Component>>\n        main] as main
+  [<<Component>>\n  dataLoader] as dataLoader
+  [<<Component>>\n  graphRenderer] as graphRenderer
+  [<<Component>>\n      filters] as filters
+  [<<Component>>\n        types] as types
+  [<<Component>>\n     barChart] as barChart
+  [<<Component>>\n  githubChart] as githubChart
+  database "query_data.json" as json
+  database "tiobe_data.json" as tiobe
+  database "github_data.json" as github
+
+  main --> dataLoader : loadData()
+  main --> graphRenderer : renderGraph()
+  main --> filters : initFilters()
+  main --> barChart : renderBarChart()
+  main --> githubChart : renderGithubChart()
+
+  dataLoader --> json : liest
+  barChart --> tiobe : liest
+  githubChart --> github : liest
+
+  dataLoader ..> types : nutzt
+  graphRenderer ..> types : nutzt
+  filters ..> types : nutzt
+
+  filters --> graphRenderer : filtert
+}
+@enduml

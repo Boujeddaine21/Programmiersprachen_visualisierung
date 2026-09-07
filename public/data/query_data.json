@@ -1,0 +1,296 @@
+[
+  {
+    "language": "http://www.wikidata.org/entity/Q118152673",
+    "languageLabel": "Mojo",
+    "inception": "2023-01-01T00:00:00Z",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mojo_%28magazine%29_Logo.svg",
+    "officialWebsite": "https://www.modular.com/mojo",
+    "developerList": "Modular",
+    "influencedByIds": "Q575650, Q28865, Q15777",
+    "influencedByList": "Q575650, Python, Q15777",
+    "paradigmList": "functional programming, imperative programming, generic programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q3816639",
+    "languageLabel": "Kotlin",
+    "inception": "2011-07-22T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Kotlin%20logo%20%282021-present%29.svg",
+    "officialWebsite": "https://kotlinlang.org/",
+    "developerList": "JetBrains",
+    "influencedByIds": "Q251, Q460584, Q2370, Q2005, Q28865",
+    "influencedByList": "Java, Scala, Q2370, JavaScript, Python",
+    "paradigmList": "object-oriented programming, concurrent computing, functional programming, structured programming, imperative programming, declarative programming, generic programming, reflective programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q2370",
+    "languageLabel": "Q2370",
+    "inception": "2001-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/C%20Sharp%20Logo%202023.svg",
+    "officialWebsite": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    "developerList": "Microsoft",
+    "influencedByIds": "Q251, Q2407, Q15777, Q575650",
+    "influencedByList": "Java, Q2407, Q15777, Q575650",
+    "paradigmList": "object-oriented programming, functional programming, structured programming, imperative programming, generic programming, reflective programming, event-driven programming, multi-paradigm programming, class-based programming, strict programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q460584",
+    "languageLabel": "Scala",
+    "inception": "2004-01-20T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Scala-full-color.svg",
+    "officialWebsite": "https://scala-lang.org",
+    "developerList": "Martin Odersky, Swiss Federal Institute of Technology in Lausanne",
+    "influencedByIds": "Q251, Q235086",
+    "influencedByList": "Java, Smalltalk",
+    "paradigmList": "object-oriented programming, concurrent computing, functional programming, imperative programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q17118377",
+    "languageLabel": "Swift",
+    "inception": "2014-06-02T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Swift%20logo.svg",
+    "officialWebsite": "https://www.swift.org/",
+    "developerList": "Chris Lattner, Apple Inc.",
+    "influencedByIds": "Q251, Q460584, Q235086, Q575650, Q2407, Q2370, Q28865",
+    "influencedByList": "Java, Scala, Smalltalk, Q575650, Q2407, Q2370, Python",
+    "paradigmList": "object-oriented programming, functional programming, imperative programming, declarative programming, multi-paradigm programming, block-structured programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q83303",
+    "languageLabel": "Fortran",
+    "inception": "1957-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Fortran%20logo.svg",
+    "officialWebsite": "https://fortran-lang.org",
+    "developerList": "John Backus, IBM",
+    "paradigmList": "imperative programming, object-oriented programming, structured programming, generic programming, procedural programming, array programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q59",
+    "languageLabel": "PHP",
+    "inception": "1995-06-08T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Webysther%2020160423%20-%20Elephpant.svg",
+    "officialWebsite": "https://www.php.net",
+    "developerList": "Rasmus Lerdorf, Andi Gutmans, Zeev Suraski, Perforce Zend, PHP Group",
+    "influencedByIds": "Q42478, Q251, Q15777, Q2407, Q2005",
+    "influencedByList": "Q42478, Java, Q15777, Q2407, JavaScript",
+    "paradigmList": "object-oriented programming, functional programming, imperative programming, reflective programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1209759",
+    "languageLabel": "ALGOL 60",
+    "developerList": "Friedrich L. Bauer, Peter Naur, Heinz Rutishauser, John McCarthy, John Backus, Klaus Samelson, Adriaan van Wijngaarden, Bernard Vauquois, Charles Katz, Alan Perlis",
+    "developerBirthDates": "1924-06-10T00:00:00Z, 1928-10-25T00:00:00Z, 1918-01-30T00:00:00Z, 1927-09-04T00:00:00Z, 1924-12-03T00:00:00Z, 1918-12-21T00:00:00Z, 1916-11-02T00:00:00Z, 1929-06-14T00:00:00Z, 1927-01-01T00:00:00Z, 1922-04-01T00:00:00Z",
+    "paradigmList": "imperative programming, structured programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1094499",
+    "languageLabel": "ALGOL 58",
+    "developerList": "Friedrich L. Bauer, Heinz Rutishauser, John Backus, Klaus Samelson, Charles Katz, Alan Perlis",
+    "developerBirthDates": "1924-06-10T00:00:00Z, 1918-01-30T00:00:00Z, 1924-12-03T00:00:00Z, 1918-12-21T00:00:00Z, 1927-01-01T00:00:00Z, 1922-04-01T00:00:00Z",
+    "influencedByIds": "Q83303",
+    "influencedByList": "Fortran",
+    "paradigmList": "imperative programming, structured programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q235086",
+    "languageLabel": "Smalltalk",
+    "inception": "1972-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk%20Balloon.svg",
+    "developerList": "Alan Kay, Dan Ingalls, Adele Goldberg, Diana Merry",
+    "influencedByIds": "Q212569, Q132874",
+    "influencedByList": "Simula, Lisp",
+    "paradigmList": "object-oriented programming, class-based programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q15777",
+    "languageLabel": "Q15777",
+    "inception": "1972-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/C1stEdition.svg",
+    "officialWebsite": "https://www.iso.org/standard/82075.html",
+    "basedOnList": "B",
+    "developerList": "Ken Thompson, Dennis M. Ritchie, American National Standards Institute, Bell Labs, International Organization for Standardization",
+    "influencedByIds": "Q1209759, Q797302, Q83303",
+    "influencedByList": "ALGOL 60, B, Fortran",
+    "paradigmList": "imperative programming, procedural programming, structured programming, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q15777",
+    "languageLabel": "Q15777",
+    "inception": "1972-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/C1stEdition.svg",
+    "officialWebsite": "https://www.open-std.org/jtc1/sc22/wg14/",
+    "basedOnList": "B",
+    "developerList": "Ken Thompson, Dennis M. Ritchie, American National Standards Institute, Bell Labs, International Organization for Standardization",
+    "influencedByIds": "Q1209759, Q797302, Q83303",
+    "influencedByList": "ALGOL 60, B, Fortran",
+    "paradigmList": "structured programming, imperative programming, procedural programming, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q28865",
+    "languageLabel": "Python",
+    "inception": "1991-02-20T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Python%20logo%20and%20wordmark.svg",
+    "officialWebsite": "https://www.python.org/",
+    "developerList": "Guido van Rossum, Python Software Foundation",
+    "paradigmList": "object-oriented programming, functional programming, imperative programming, multi-paradigm programming, dynamic programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q2407",
+    "languageLabel": "Q2407",
+    "inception": "1983-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/ISO%20C%2B%2B%20Logo.svg",
+    "officialWebsite": "https://isocpp.org/",
+    "developerList": "Bjarne Stroustrup",
+    "developerBirthDates": "1950-12-30T00:00:00Z",
+    "influencedByIds": "Q15777, Q212569",
+    "influencedByList": "Q15777, Simula",
+    "paradigmList": "object-oriented programming, functional programming, generic programming, procedural programming, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q251",
+    "languageLabel": "Java",
+    "inception": "1995-01-01T00:00:00Z",
+    "logo": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=original",
+    "officialWebsite": "https://www.oracle.com/java/",
+    "basedOnList": "Oak",
+    "developerList": "James Gosling, Sun Microsystems, Oracle Corporation",
+    "influencedByIds": "Q212569, Q235086, Q2407, Q2370, Q15777",
+    "influencedByList": "Simula, Smalltalk, Q2407, Q2370, Q15777",
+    "paradigmList": "object-oriented programming, functional programming, structured programming, imperative programming, component-based software engineering, generic programming, reflective programming, class-based programming, concurrent object-oriented programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q21921428",
+    "languageLabel": "Crystal",
+    "inception": "2014-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Crystal%20language%20logo.svg",
+    "officialWebsite": "https://crystal-lang.org/",
+    "developerList": "Ary Borenzweig, Manas Technology Solutions",
+    "influencedByIds": "Q37227, Q575650, Q28865, Q15777, Q2370",
+    "influencedByList": "Go, Q575650, Python, Q15777, Q2370",
+    "paradigmList": "object-oriented programming, concurrent computing, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q212569",
+    "languageLabel": "Simula",
+    "inception": "1962-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Simula%20-%20logo.svg",
+    "developerList": "Kristen Nygaard",
+    "developerBirthDates": "1926-08-27T00:00:00Z",
+    "influencedByIds": "Q1209759",
+    "influencedByList": "ALGOL 60",
+    "paradigmList": "object-oriented programming, structured programming, imperative programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q575650",
+    "languageLabel": "Q575650",
+    "inception": "2006-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rust%20programming%20language%20black%20logo.svg",
+    "officialWebsite": "https://rust-lang.org/",
+    "developerList": "Q28937563, Q105394699, Q9661",
+    "influencedByIds": "Q17118377, Q2407, Q2370",
+    "influencedByList": "Swift, Q2407, Q2370",
+    "paradigmList": "imperative programming, object-oriented programming, concurrent computing, functional programming,  generic programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q978185",
+    "languageLabel": "TypeScript",
+    "inception": "2012-10-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Typescript%20logo%202020.svg",
+    "officialWebsite": "https://www.typescriptlang.org/",
+    "developerList": "Microsoft",
+    "influencedByIds": "Q251, Q2370, Q2005",
+    "influencedByList": "Java, Q2370, JavaScript",
+    "paradigmList": "object-oriented programming, functional programming, imperative programming, generic programming, event-driven programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q132874",
+    "languageLabel": "Lisp",
+    "inception": "1958-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Lisp%20logo.svg",
+    "developerList": "John McCarthy, Steve Russell",
+    "developerBirthDates": "1927-09-04T00:00:00Z, 1937-05-12T00:00:00Z",
+    "paradigmList": "functional programming, metaprogramming, reflective programming, procedural programming, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q42478",
+    "languageLabel": "Q42478",
+    "inception": "1987-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Perl-logo.svg",
+    "officialWebsite": "https://perl.org",
+    "developerList": "Larry Wall, The Perl Foundation",
+    "influencedByIds": "Q132874, Q213970, Q15777, Q2407, Q42979",
+    "influencedByList": "Lisp, Q213970, Q15777, Q2407, Q42979",
+    "paradigmList": "multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q37227",
+    "languageLabel": "Go",
+    "inception": "2009-11-10T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Go%20Logo%20Blue.svg",
+    "officialWebsite": "https://go.dev",
+    "developerList": "Rob Pike, Ken Thompson, Robert Griesemer, The Go Authors, Google",
+    "influencedByIds": "Q235086, Q15777",
+    "influencedByList": "Smalltalk, Q15777",
+    "paradigmList": "imperative programming, object-oriented programming, concurrent computing, functional programming, structured programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q797302",
+    "languageLabel": "B",
+    "inception": "1969-01-01T00:00:00Z",
+    "developerList": "Ken Thompson, Bell Labs",
+    "paradigmList": "procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q15777",
+    "languageLabel": "Q15777",
+    "inception": "1972-01-01T00:00:00Z",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+    "officialWebsite": "https://www.c-language.org/",
+    "basedOnList": "B",
+    "developerList": "Ken Thompson, Dennis M. Ritchie, American National Standards Institute, Bell Labs, International Organization for Standardization",
+    "influencedByIds": "Q1209759, Q797302, Q83303",
+    "influencedByList": "ALGOL 60, B, Fortran",
+    "paradigmList": "structured programming, imperative programming, procedural programming, multi-paradigm programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q2005",
+    "languageLabel": "JavaScript",
+    "inception": "1995-12-04T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20JavaScript%20logo%202.svg",
+    "officialWebsite": "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+    "basedOnList": "Javascript",
+    "influencedByIds": "Q251, Q42478, Q15777, Q28865, Q213970",
+    "influencedByList": "Java, Q42478, Q15777, Python, Q213970",
+    "paradigmList": "aspect-oriented programming, prototype-based programming, functional programming, imperative programming, generic programming, event-driven programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q213970",
+    "languageLabel": "Q213970",
+    "inception": "1977-01-01T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/The-AWK-Programming-Language.svg",
+    "developerList": "Brian Kernighan, Peter J. Weinberger, Alfred Aho",
+    "developerBirthDates": "1942-01-01T00:00:00Z, 1942-08-06T00:00:00Z, 1941-08-09T00:00:00Z",
+    "influencedByIds": "Q15777",
+    "influencedByList": "Q15777",
+    "paradigmList": "data-driven programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q42979",
+    "languageLabel": "Q42979",
+    "inception": "1964-01-01T00:00:00Z",
+    "developerList": "Thomas E. Kurtz, Mary Kenneth Keller, John George Kemeny",
+    "developerBirthDates": "1928-02-22T00:00:00Z, 1913-12-17T00:00:00Z, 1926-05-31T00:00:00Z",
+    "influencedByIds": "Q83303",
+    "influencedByList": "Fortran",
+    "paradigmList": "object-oriented programming, imperative programming, non-structured programming, procedural programming"
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q113157814",
+    "languageLabel": "Carbon",
+    "inception": "2020-04-27T00:00:00Z",
+    "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Carbon%20logo.png",
+    "officialWebsite": "https://github.com/carbon-language/carbon-lang/blob/trunk/README.md",
+    "developerList": "Google",
+    "influencedByIds": "Q37227, Q575650, Q2407",
+    "influencedByList": "Go, Q575650, Q2407"
+  }
+]
