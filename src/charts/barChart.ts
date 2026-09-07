@@ -24,29 +24,24 @@ export async function renderBarChart(container: HTMLElement): Promise<void> {
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  // Y-Skala (Sprachen)
   const yScale = d3.scaleBand()
     .domain(data.map(d => d.language))
     .range([0, height])
     .padding(0.3);
 
-  // X-Skala (Rating)
   const xScale = d3.scaleLinear()
     .domain([0, d3.max(data, d => d.rating)! + 1])
     .range([0, width]);
 
-  // X-Achse oben
-g.append('g')
+  g.append('g')
     .attr('transform', `translate(0,0)`)
     .call(d3.axisTop(xScale).tickFormat(d => `${d}%`))
 
-  // Y-Achse
   g.append('g')
     .call(d3.axisLeft(yScale))
     .selectAll('text')
     .attr('font-size', '11px');
 
-  // Titel
   g.append('text')
     .attr('x', width / 2)
     .attr('y', -55)
@@ -56,7 +51,6 @@ g.append('g')
     .attr('fill', '#333')
     .text('TIOBE Index - Beliebtheit der Programmiersprachen (August 2026)');
 
-  // X-Achsen Beschriftung
   g.append('text')
     .attr('x', width / 2)
     .attr('y', -35)
@@ -65,7 +59,6 @@ g.append('g')
     .attr('fill', '#666')
     .text('Beliebtheit (%)');
 
-  // Tooltip
   const tooltip = d3.select(container)
     .append('div')
     .style('position', 'absolute')
@@ -78,7 +71,6 @@ g.append('g')
     .style('opacity', '0')
     .style('box-shadow', '0 2px 8px rgba(0,0,0,0.15)');
 
-  // Balken
   g.selectAll('rect')
     .data(data)
     .join('rect')
@@ -104,7 +96,6 @@ g.append('g')
       tooltip.style('opacity', '0');
     });
 
-  // Werte rechts neben Balken
   g.selectAll('text.bar-label')
     .data(data)
     .join('text')

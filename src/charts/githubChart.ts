@@ -21,18 +21,15 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  // Y-Skala
   const yScale = d3.scaleBand()
     .domain(data.map(d => d.language))
     .range([0, height])
     .padding(0.3);
 
-  // X-Skala
   const xScale = d3.scaleLinear()
     .domain([0, d3.max(data, d => d.count)!])
     .range([0, width]);
 
-  // X-Achse oben
   g.append('g')
   .attr('transform', 'translate(0,0)')
   .call(d3.axisTop(xScale).tickFormat(d => 
@@ -40,13 +37,11 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
   .selectAll('text')
   .attr('font-size', '11px');
 
-  // Y-Achse
   g.append('g')
     .call(d3.axisLeft(yScale))
     .selectAll('text')
     .attr('font-size', '11px');
 
-  // Titel
   g.append('text')
     .attr('x', width / 2)
     .attr('y', -55)
@@ -56,7 +51,6 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
     .attr('fill', '#333')
     .text('GitHub - Anzahl der Repositories pro Programmiersprache (August 2026)');
 
-  // X-Achsen Beschriftung
   g.append('text')
     .attr('x', width / 2)
     .attr('y', -35)
@@ -65,7 +59,6 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
     .attr('fill', '#666')
     .text('Anzahl Repositories (in Tausend)');
 
-  // Tooltip
   const tooltip = d3.select(container)
     .append('div')
     .style('position', 'absolute')
@@ -78,7 +71,6 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
     .style('opacity', '0')
     .style('box-shadow', '0 2px 8px rgba(0,0,0,0.15)');
 
-  // Balken
   g.selectAll('rect')
     .data(data)
     .join('rect')
@@ -105,7 +97,6 @@ export async function renderGithubChart(container: HTMLElement): Promise<void> {
       tooltip.style('opacity', '0');
     });
 
-  // Werte rechts neben Balken
   g.selectAll('text.bar-label')
   .data(data)
   .join('text')

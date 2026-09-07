@@ -8,110 +8,109 @@
   </head>
   <body>
     <div id="app">
-      <!-- Sidebar -->
       <aside class="sidebar">
-        <div class="sidebar-header">
-          <h1>Programmiersprachen</h1>
-          <div class="subtitle">Graphvisualisierung der Programmiersprachen</div>
-          <div id="stats"></div>
-        </div>
+          <div class="sidebar-header">
+            <h1>Programmiersprachen</h1>
+            <div class="subtitle">Graphvisualisierung der Programmiersprachen</div>
+            <div id="stats"></div>
+          </div>
 
-        <div class="sidebar-section">
-  <h3>Suche</h3>
-  <input type="text" id="search-input" placeholder="Sprache suchen..." autocomplete="off"/>
-  <div style="margin-top: 8px; display: flex; gap: 16px;">
-    <label style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem;">
-      <input type="checkbox" id="filter-predecessors" />
-      Vorgänger
-    </label>
-    <label style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem;">
-      <input type="checkbox" id="filter-successors" />
-      Nachfolger
-    </label>
-  </div>
-</div>
-        <div class="sidebar-section">
-          <h3>Zeitraum</h3>
-          <div class="range-container">
-            <div class="range-row">
-              <label>Von</label>
-              <input type="number" id="year-min" min="1940" max="2020" value="1940" />
-            </div>
-            <div class="range-row">
-              <label>Bis</label>
-              <input type="number" id="year-max" min="1940" max="2020" value="2020" />
+          <div class="sidebar-section">
+            <h3>Suche</h3>
+            <input type="text" id="search-input" placeholder="Sprache suchen..." autocomplete="off"/>
+            <div style="margin-top: 8px; display: flex; gap: 16px;">
+              <label style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem;">
+                <input type="checkbox" id="filter-predecessors" />
+                Vorgänger
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem;">
+                <input type="checkbox" id="filter-successors" />
+                Nachfolger
+              </label>
             </div>
           </div>
-        </div>
+          <div class="sidebar-section">
+            <h3>Zeitraum</h3>
+            <div class="range-container">
+              <div class="range-row">
+                <label>Von</label>
+                <input type="number" id="year-min" min="1940" max="2020" value="1940" />
+              </div>
+              <div class="range-row">
+                <label>Bis</label>
+                <input type="number" id="year-max" min="1940" max="2020" value="2020" />
+              </div>
+            </div>
+          </div>
 
-        <div class="sidebar-section">
-          <h3>Paradigma</h3>
-          <select id="paradigm-filter">
-            <option value="">Alle Paradigmen</option>
-          </select>
-        </div>
+          <div class="sidebar-section">
+            <h3>Paradigma</h3>
+            <select id="paradigm-filter">
+              <option value="">Alle Paradigmen</option>
+            </select>
+          </div>
 
-        <div class="sidebar-section">
-        <h3>Ansicht</h3>
-        <select id="view-select">
-          <option value="graph">Graph</option>
-          <option value="tiobe">TIOBE Statistik</option>
-          <option value="github">GitHub Statistik</option>
-        </select>
-      </div>
+          <div class="sidebar-section">
+          <h3>Ansicht</h3>
+            <select id="view-select">
+              <option value="graph">Graph</option>
+              <option value="tiobe">TIOBE Statistik</option>
+              <option value="github">GitHub Statistik</option>
+            </select>
+          </div>
 
-        <div class="sidebar-section">
-          <button class="btn btn-primary" id="reset-btn"> Zurücksetzen</button>
-        </div>
+          <div class="sidebar-section">
+            <button class="btn btn-primary" id="reset-btn"> Zurücksetzen</button>
+          </div>
 
-        <div class="sidebar-section">
-          <button class="btn btn-success" id="export-svg-btn"> SVG exportieren</button>
-        </div>
+          <div class="sidebar-section">
+            <button class="btn btn-success" id="export-svg-btn"> SVG exportieren</button>
+          </div>
 
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <circle cx="10" cy="10" r="9" fill="#e74c3c"/>
-          </svg>
-          Objektorientiert
-        </div>
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <polygon points="10,1 19,19 1,19" fill="#2ecc71"/>
-          </svg>
-          Prozedural
-        </div>
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <polygon points="10,1 19,10 10,19 1,10" fill="#9b59b6"/>
-          </svg>
-          Funktional
-        </div>
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <rect x="1" y="1" width="18" height="18" fill="#3498db"/>
-          </svg>
-          Imperativ
-        </div>
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <polygon points="10,1 18,7 15,17 5,17 2,7" fill="#1abc9c"/>
-          </svg>
-          Multi-Paradigma
-        </div>
-        <div class="legend-item">
-          <svg width="20" height="20" style="margin-right:8px">
-            <circle cx="10" cy="10" r="9" fill="#78909c"/>
-          </svg>
-          Sonstige
-        </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <circle cx="10" cy="10" r="9" fill="#e74c3c"/>
+            </svg>
+            Objektorientiert
+          </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <polygon points="10,1 19,19 1,19" fill="#2ecc71"/>
+            </svg>
+            Prozedural
+          </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <polygon points="10,1 19,10 10,19 1,10" fill="#9b59b6"/>
+            </svg>
+            Funktional
+          </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <rect x="1" y="1" width="18" height="18" fill="#3498db"/>
+            </svg>
+            Imperativ
+          </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <polygon points="10,1 18,7 15,17 5,17 2,7" fill="#1abc9c"/>
+            </svg>
+            Multi-Paradigma
+          </div>
+          <div class="legend-item">
+            <svg width="20" height="20" style="margin-right:8px">
+              <circle cx="10" cy="10" r="9" fill="#78909c"/>
+            </svg>
+            Sonstige
+          </div>
 
-        <div class="help-text">
-          <strong>Bedienung:</strong><br />
-          Ziehen: <kbd>Maus</kbd> auf Knoten<br />
-          Zoomen: <kbd>Mausrad</kbd><br />
-          Verschieben: <kbd>Maus</kbd> auf Hintergrund<br />
-          Details: <kbd>Hover</kbd> auf Knoten
-        </div>
+          <div class="help-text">
+            <strong>Bedienung:</strong><br />
+            Ziehen: <kbd>Maus</kbd> auf Knoten<br />
+            Zoomen: <kbd>Mausrad</kbd><br />
+            Verschieben: <kbd>Maus</kbd> auf Hintergrund<br />
+            Details: <kbd>Hover</kbd> auf Knoten
+          </div>
       </aside>
 
       <main class="dag-wrapper">
